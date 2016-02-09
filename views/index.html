@@ -1,0 +1,69 @@
+<html>
+ 
+<head>
+    <title>{{title}}</title>
+	<link href="\bootstrap\css\bootstrap.css" rel="stylesheet">
+	<link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+<body style="background:#FAFAFA">
+</head>
+ 
+
+<body>
+
+
+{{#each entries}}
+<center><h4>Housing You're Looking For</h4></center>
+<div class="container">
+<table class="table table-hover">
+   <tr class="danger">
+       <th>Features</th>
+       <th></th>
+   </tr>
+   <tr class="success">
+       <td>Ville</td>
+       <td >{{ville}}</td>
+   </tr>
+   <tr class="info">
+       <td>ZipCode</td>
+       <td>{{zipcode}}</td>
+   </tr>
+   <tr class="success">
+       <td>Type</td>
+       <td >{{typelog}}</td>
+   </tr>
+   <tr class="info">
+       <td>Surface</td>
+       <td >{{surface}}</td>
+   </tr>
+</table>
+
+<table class="table table-hover">
+   <tr class="danger">
+       <th>Prices (€)</th>
+       <th></th>
+   </tr>
+
+   <tr class="success">
+       <td>LeBonCoin</td>
+       <td >{{prix1}}</td>
+   </tr>
+   <tr class="info">
+       <td>MeilleursAgents</td>
+       <td >{{prix2}}</td>
+   </tr>
+</table>
+<table>
+   <tr>
+       <th></th>
+   </tr>
+   <tr>
+       <td ></td>
+   </tr>
+</table>
+</div>
+
+<div class="alert alert-info" role=alert> <center><strong>Good Deal Or Not ?</strong><h3>{{deal}} </h3></center></div>
+{{/each}}
+
+</body>
+</html>

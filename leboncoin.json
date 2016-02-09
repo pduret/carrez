@@ -1,0 +1,10 @@
+{
+    "title": "LeBonCoinLogement",
+    "type": "object",
+    "prix": "275000",
+    "zipcode": "92300",
+    "ville": "levallois-perret",
+    "typelog": "appartement",
+    "surface": "32",
+    "prixm2": 8594
+}

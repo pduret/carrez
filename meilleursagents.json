@@ -1,0 +1,11 @@
+{
+    "title": "MeilleursAgentsLogement",
+    "type": "object",
+    "zipcode": "92300",
+    "ville": "levallois-perret",
+    "typelog": "appartement",
+    "surface": "32",
+    "prix1m2": 8594,
+    "prix2m2": "",
+    "gooddeal": ""
+}
